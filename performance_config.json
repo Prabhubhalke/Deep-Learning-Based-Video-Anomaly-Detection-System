@@ -1,0 +1,23 @@
+{
+  "tensorflow": {
+    "mixed_precision": true,
+    "gpu_memory_growth": true,
+    "inter_op_parallelism": 0,
+    "intra_op_parallelism": 0
+  },
+  "opencv": {
+    "use_opencl": false,
+    "num_threads": 0
+  },
+  "yolo": {
+    "model_size": "nano",
+    "confidence_threshold": 0.4,
+    "iou_threshold": 0.45,
+    "image_size": 320
+  },
+  "processing": {
+    "frames_per_second": 0.5,
+    "max_frames": 20,
+    "batch_size": 1
+  }
+}
